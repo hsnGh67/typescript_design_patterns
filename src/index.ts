@@ -1,7 +1,7 @@
-import { IteratorClient } from "./iterator/IteratorClient";
-import { originator } from "./memento/Originator";
-import { client } from "./state/client";
-import { strategyClient } from "./strategy/client";
-import { TemplateMethodClient } from "./template method/TemplateMethodClient";
+import { IteratorClient } from "./Behavioral/iterator/IteratorClient";
+import { originator } from "./Behavioral//memento/Originator";
+import { client } from "./Behavioral//state/client";
+import { strategyClient } from "./Behavioral//strategy/client";
+import { TemplateMethodClient } from "./Behavioral//template method/TemplateMethodClient";
 
 IteratorClient()
