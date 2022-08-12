@@ -1,3 +1,4 @@
-import { originator as main } from "./memento/Originator";
+import { originator } from "./memento/Originator";
+import { client as main } from "./state/client";
 
 main()
