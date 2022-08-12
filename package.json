@@ -1,0 +1,14 @@
+{
+  "name": "typescript-design-patterns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start" : "npx concurrently -k -n COMPILER,NODEMON -c blue,yellow \"tsc -w\" \"nodemon -q dist/index.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  }
+}
