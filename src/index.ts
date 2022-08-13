@@ -7,5 +7,6 @@ import { TemplateMethodClient } from "./Behavioral/template method/TemplateMetho
 import { observerClient } from "./Behavioral/observer/observerClient";
 import { commandInvoker } from "./Behavioral/command/invoker";
 import { plainClient } from "./Behavioral/mediator/plain/plainClient";
+import { chainClient } from "./Behavioral/chain of responsibility/chainClient";
 
-plainClient()
+chainClient()
