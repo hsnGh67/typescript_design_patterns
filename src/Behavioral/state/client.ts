@@ -1,8 +1,8 @@
 import { IState } from "./IState"
-import { State1 } from "./state1"
-import { State2 } from "./state2"
+import { State1 } from "./State1"
+import { State2 } from "./State2"
 
-export const client = ()=>{
+export const stateClient = ()=>{
     let state : IState
 
     const state1 = new State1()
