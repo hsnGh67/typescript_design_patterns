@@ -8,5 +8,7 @@ import { observerClient } from "./Behavioral/observer/observerClient";
 import { commandInvoker } from "./Behavioral/command/invoker";
 import { plainClient } from "./Behavioral/mediator/plain/plainClient";
 import { chainClient } from "./Behavioral/chain of responsibility/chainClient";
+//structural
+import { compositeClient } from "./structural/composite/compositeClient";
 
-chainClient()
+compositeClient()
