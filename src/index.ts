@@ -11,5 +11,6 @@ import { chainClient } from "./Behavioral/chain of responsibility/chainClient";
 //structural
 import { compositeClient } from "./structural/composite/compositeClient";
 import { decoratorClient } from "./structural/decorator/decoratorClient";
+import { adapterClient } from "./structural/Adapter/adapterClient";
 
-decoratorClient()
+adapterClient()
