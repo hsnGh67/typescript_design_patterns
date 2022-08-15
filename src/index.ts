@@ -13,5 +13,7 @@ import { compositeClient } from "./structural/composite/compositeClient";
 import { decoratorClient } from "./structural/decorator/decoratorClient";
 import { adapterClient } from "./structural/Adapter/adapterClient";
 import { flyweightClient } from "./structural/Flyweight/flyweightClient";
+import { bridgeClient } from "./structural/bridge/bridgeClient";
+import { proxyClient } from "./structural/proxy/proxyClient";
 
-flyweightClient()
+proxyClient()

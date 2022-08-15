@@ -2,7 +2,7 @@ import { IDevice } from "./IDevice";
 
 export class BasedRemote {
     
-    device : IDevice
+    protected device : IDevice
 
     constructor(device : IDevice){
         this.device = device
