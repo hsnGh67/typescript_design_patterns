@@ -19,5 +19,6 @@ import { proxyClient } from "./structural/proxy/proxyClient";
 import { prototypeClient } from "./creational/prototype/prototypeClient";
 import { singletonClient } from "./creational/singleton/singletonClient";
 import { factoryMethodClient } from "./creational/factory method/factoryMethodClient";
+import { abstractFactoryClient } from "./creational/abstract factory/abstractFactoryClient";
 
-factoryMethodClient()
+abstractFactoryClient()
