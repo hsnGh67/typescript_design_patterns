@@ -15,5 +15,6 @@ import { adapterClient } from "./structural/Adapter/adapterClient";
 import { flyweightClient } from "./structural/Flyweight/flyweightClient";
 import { bridgeClient } from "./structural/bridge/bridgeClient";
 import { proxyClient } from "./structural/proxy/proxyClient";
+import { prototypeClient } from "./creational/prototype/prototypeClient";
 
-proxyClient()
+prototypeClient()
