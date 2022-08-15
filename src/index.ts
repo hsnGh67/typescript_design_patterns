@@ -15,6 +15,8 @@ import { adapterClient } from "./structural/Adapter/adapterClient";
 import { flyweightClient } from "./structural/Flyweight/flyweightClient";
 import { bridgeClient } from "./structural/bridge/bridgeClient";
 import { proxyClient } from "./structural/proxy/proxyClient";
+//creational
 import { prototypeClient } from "./creational/prototype/prototypeClient";
+import { singletonClient } from "./creational/singleton/singletonClient";
 
-prototypeClient()
+singletonClient()
