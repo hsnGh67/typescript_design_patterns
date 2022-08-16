@@ -5,7 +5,7 @@ import { stateClient } from "./Behavioral//state/client";
 import { strategyClient } from "./Behavioral/strategy/client";
 import { TemplateMethodClient } from "./Behavioral/template method/TemplateMethodClient";
 import { observerClient } from "./Behavioral/observer/observerClient";
-import { commandInvoker } from "./Behavioral/command/invoker";
+import { commandClient } from "./Behavioral/command/commandClient";
 import { plainClient } from "./Behavioral/mediator/plain/plainClient";
 import { chainClient } from "./Behavioral/chain of responsibility/chainClient";
 //structural
@@ -22,4 +22,4 @@ import { factoryMethodClient } from "./creational/factory method/factoryMethodCl
 import { abstractFactoryClient } from "./creational/abstract factory/abstractFactoryClient";
 import { builderClient } from "./creational/builder/builderClient";
 
-builderClient()
+commandClient()
